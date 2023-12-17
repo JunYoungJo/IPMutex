@@ -32,9 +32,11 @@ See [Mutex requirements](https://en.cppreference.com/w/cpp/named_req/Mutex) for 
 }
 ```
 
-[!NOTE] Resources owned by `ipm::IPMutex` are automatically released by a RAII-style mechanism.
+>[!NOTE]
+>Resources owned by `ipm::IPMutex` are automatically released by a RAII-style mechanism.
 
-[!CAUTION] Because of the behavior when shm_open() is called with the same key after shm_unlink(), the mutex object created first must be released last.
+>[!CAUTION]
+>Because of the behavior when shm_open() is called with the same key after shm_unlink(), the mutex object created first must be released last.
 For more information, see [shm_unlink()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/shm_unlink.html).
 
 ## How to build example
