@@ -1,7 +1,0 @@
-{
-  "name": "tbipc",
-  "version": "0.1",
-  "dependencies": [
-    "catch2"
-  ]
-}

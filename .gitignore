@@ -4,3 +4,5 @@
 /.cache/
 /.vscode/
 CMakePresets.json
+vcpkg-configuration.json
+vcpkg.json
