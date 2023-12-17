@@ -1,7 +1,7 @@
 # Interprocess Mutex
 
 ---
-IPMutex is an interprocess mutex that implements [BasicLockable](https://en.cppreference.com/w/cpp/named_req/BasicLockable) for use with [std::lock_guard](https://en.cppreference.com/w/cpp/thread/lock_guard).
+IPMutex is an interprocess mutex written in one header file that implements [BasicLockable](https://en.cppreference.com/w/cpp/named_req/BasicLockable) for use with [std::lock_guard](https://en.cppreference.com/w/cpp/thread/lock_guard).
 
 ## System Requirements
 It is tested in wsl-ubuntu.
